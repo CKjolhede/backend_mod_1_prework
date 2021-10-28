@@ -12,19 +12,39 @@ print_name
 
 # Write a method that takes a name as an argument and prints it:
 def print_name(name)
-  # YOUR CODE HERE
+  p name
 end
 
 print_name("Albus Dumbledore")
 
-# Write a method that takes in 2 numbers as arguments and prints 
+# Write a method that takes in 2 numbers as arguments and prints
 # their sum. Then call your method three times with different arguments passed in:
-# YOUR CODE HERE
+def sum(num1, num2)
+  p "Adding #{num1} and #{num2}"
+  return num1 + num2
+end
 
-# Write a method that takes in two strings as arguments and prints 
-# a concatenation of those two strings. Example: The arguments could be 
-# (man, woman) and the end result might output: "When Harry Met Sally".  
-# Then call your method three times with different arguments passed in. 
+puts sum(3, 4)
+puts sum(5, 2)
+puts sum(7, 1)
+
+
+# Write a method that takes in two strings as arguments and prints
+# a concatenation of those two strings. Example: The arguments could be
+# (man, woman) and the end result might output: "When Harry Met Sally".
+# Then call your method three times with different arguments passed in.
+def colors(color1, color2)
+  puts "Do you think #{color1} and #{color2} compliment one another?"
+end
+
+colors("blue", "orange")
+p "Yes they do!"
+
+colors("pink", "red")
+p "Not unless you're over 80 years old."
+
+colors("white", "black")
+p "Those aren't technically colors."
 
 
 #-------------------
@@ -37,5 +57,6 @@ print_name("Albus Dumbledore")
 # Look at the code you wrote for the previous YOU DO🎈 - what did you name the function, and why?
 # What did you name each parameter, and why?
 
-# EXPLAIN:
-
+# EXPLAIN:  I named the method "colors" to indicate that the parameters would be the name of colors.
+# I then named each parameter, color1 and color2 to indicate what they are and which parameter they were.
+ 
