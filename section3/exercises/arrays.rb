@@ -25,7 +25,6 @@ print animals[0]
 # animals from above.
 print animals.length
 
-
 # YOU DO: Write code that will reassign the last item in the animals
 # array to "Gorilla"
 animals.last['Gorilla']

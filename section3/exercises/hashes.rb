@@ -5,7 +5,7 @@
 
 # Example: Write code that prints a hash holding grocery store inventory:
 foods = {apples: 23, grapes: 507, eggs: 48}
-p foods
+puts foods
 
 # Write code that prints a hash holding zoo animal inventory:
 zoo = {"monkey" => 22, "deer" => 142, "peacock" => 51}

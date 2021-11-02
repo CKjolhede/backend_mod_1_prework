@@ -37,6 +37,9 @@ p students
 first_name = "Chris"
 is_hungry = false
 number_of_pets = 3
+puts first_name
+puts is_hungry
+puts number_of_pets
 
 # IN WORDS:
 # How did you decide to use the data type you did for each of the three variables above?
@@ -69,4 +72,4 @@ puts healthy_snacks + junk_food_snacks
 #-------------------
 
 # Did you run this file in your terminal to make sure everything printed out to the terminal
-  # as you would expect  yes 
+  # as you would expect  yes

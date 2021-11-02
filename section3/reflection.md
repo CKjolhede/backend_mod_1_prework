@@ -13,26 +13,47 @@ I demonstrate a growth mindset in my willingness to try new things. In the past 
 My growth mindset is limited only by my lack of curiosity of things.
 
 1. What is a Hash, and how is it different from an Array?
+
 An array is a collection of values in numeric order whereas a Hash is a dictionary of keys and the key's value
 
 1. In the space below, create a Hash stored to a variable named `pet_store`.  This hash should hold an inventory of items and the number of that item that you might find at a pet store.
+,,,
 pet_store = {
   "dog food" => 14,
   "cat food" => 12,
   "cat litter" => 10,
   "chew toys" => 8
 }
+,,,
 
 1. Given the following `states = {"CO" => "Colorado", "IA" => "Iowa", "OK" => "Oklahoma"}`, how would you access the value `"Iowa"`?
-puts state['IA']
 
+,,,
+puts states['IA']
+,,,
 
-1. With the same hash above, how would we get all the keys?  How about all the values?
+1. With the same hash above, how would we get all the keys?
+
+,,,
+
 puts states.keys
-puts states.values
 
-1. What is another example of when we might use a hash?  In your example, why is a hash better than an array?Storing non-numeric or alphanumeric values which are not interrelated is a good use of hash.
-In this situation, hashes are better than array because each hash key can be handled individually withoutT REFERENCE OR IMPct on the other keys within the hash.
+,,,
+
+How about all the values?
+
+,,,
+puts states.values
+,,,
+
+1. What is another example of when we might use a hash?  
+
+Storing non-numeric or alphanumeric values which are not interrelated is a good use of hash.
+
+In your example, why is a hash better than an array?
+
+In this situation, hashes are better than array because each hash key can be handled individually without reference or impact on the other keys within the hash.
 
 1. What questions do you still have about hashes?
-I am intrigued with this operation and I'm excited to learn exactly what this operation is capable of doing
+
+I am intrigued with this operation and I'm excited to learn exactly what this operation is capable of doing. I read a number of posts and articles on hashes, and even watched a video that was WAY over my head and it appears that hashes are the cornerstone of how Ruby handles data management.

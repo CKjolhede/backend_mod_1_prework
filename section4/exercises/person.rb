@@ -22,4 +22,4 @@ end
 
 travis=Person.new("Travis", 82)
 p travis.bedtime("10:00pm")
-p travis.eat("Flamin' Cheetohs")
+p travis.eat("Flamin' Hot Cheetohs")

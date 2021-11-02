@@ -5,14 +5,14 @@
 
 # Example: Write a method that when called will print your name:
 def print_name
-  p "Severus Snape"
+  puts "Severus Snape"
 end
 
 print_name
 
 # Write a method that takes a name as an argument and prints it:
 def print_name(name)
-  p name
+  puts name
 end
 
 print_name("Albus Dumbledore")
@@ -20,7 +20,7 @@ print_name("Albus Dumbledore")
 # Write a method that takes in 2 numbers as arguments and prints
 # their sum. Then call your method three times with different arguments passed in:
 def sum(num1, num2)
-  p "Adding #{num1} and #{num2}"
+  puts "Adding #{num1} and #{num2}"
   return num1 + num2
 end
 
@@ -38,13 +38,13 @@ def colors(color1, color2)
 end
 
 colors("blue", "orange")
-p "Yes they do!"
+puts "Yes they do!"
 
 colors("pink", "red")
-p "Not unless you're over 80 years old."
+puts "Not unless you're over 80 years old."
 
 colors("white", "black")
-p "Those aren't technically colors."
+puts "Those aren't technically colors."
 
 
 #-------------------
@@ -59,4 +59,3 @@ p "Those aren't technically colors."
 
 # EXPLAIN:  I named the method "colors" to indicate that the parameters would be the name of colors.
 # I then named each parameter, color1 and color2 to indicate what they are and which parameter they were.
- 

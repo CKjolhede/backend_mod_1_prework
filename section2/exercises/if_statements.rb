@@ -43,9 +43,17 @@
 
 num_quarters = 0
 
-if num_quarters >= 50
+if num_quarters >= 2
   puts "I have enough money for a gumball"
-elsif num_quarters < 50
+else
+  puts "I don't have enough money for a gumball"
+end
+
+num_quarters = 2
+
+if num_quarters >= 2
+  puts "I have enough money for a gumball"
+else
   puts "I don't have enough money for a gumball"
 end
 
@@ -69,6 +77,17 @@ has_sauce = false
 
 if cups_of_flour >= 2 && has_sauce == true
   puts "I can make pizza"
-elsif cups_of_flour < 2 || has_sauce == false
+else
+# elsif cups_of_flour < 2 || has_sauce == false
+  puts "I cannot make pizza"
+end
+
+cups_of_flour = 5
+has_sauce = true
+
+if cups_of_flour >= 2 && has_sauce == true
+  puts "I can make pizza"
+else
+# elsif cups_of_flour < 2 || has_sauce == false
   puts "I cannot make pizza"
 end

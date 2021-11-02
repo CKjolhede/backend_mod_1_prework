@@ -11,28 +11,46 @@ Is there anything not on this list, that you would add to it?
     Rewriting notes into a more consice and organized way every day would help me remind myself of the concepts I've been introduced to or practiced and provide myself a more valuable resource when looking for information.
 
 1. How would you print the string `"Hello World!"` to the terminal?
-using the puts command   puts "Hello World!"
 
-1. What character is used to indicate comments in a ruby file?  #
+,,,
+puts "Hello World!"
+,,,
+
+1. What character is used to indicate comments in a ruby file?
+
+ #
 
 1. Explain the difference between an integer and a float?
-  integers are whole numbers where as floats contain decimals
+
+  Integers are whole numbers where as floats contain decimals
 
 1. In the space below, create a variable `animal` that holds the string `"zebra"`
+
+'''
 animal = "zebra"
+,,,
 
 1. How would you print the string `"zebra"` using the variable that you created above?
+
+,,,
 p animal
 or
 puts animal
+,,,
 
-1. What is interpolation? Use interpolation to print a sentence using the variable `animal`.
+1. What is interpolation?
+
 Interpolation is a string with an embedded variable or expression.
-p "Lionesses will hunt #{animal}s in groups to most efficiently gather food for their pride.""
+
+Use interpolation to print a sentence using the variable `animal`.
+
+puts "Lionesses will hunt #{animal}s as a pack because it is the most energy efficient prey on the African savannah."
 
 1. What method is used to get input from a user?  
+
 'variable name' = gets.chomp
 
 1. Name and describe two common string methods:
-.length
-.to_i
+
+.length   This will return the number of characters in the string.
+.to_i     This will convert a string into an integer

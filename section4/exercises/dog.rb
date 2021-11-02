@@ -13,7 +13,7 @@ class Dog
   end
 
   def bark
-    p "woof!"
+    puts "woof!"
   end
 
   def eat
@@ -40,4 +40,4 @@ else
   hunger = "not hungry"
 end
 
-p "#{fido.name} is currently #{hunger}."
+puts "#{fido.name} is currently #{hunger}."

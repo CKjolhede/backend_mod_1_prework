@@ -43,7 +43,7 @@ end
 
 1. How do you create an instance of a class?
 
-name_of_instance = class_name.new(attributes_values_separated_by_commas)
+name_of_instance = class_name.new(attribute_values_separated_by_commas)
 
 1. What questions do you still have about classes in Ruby?
 I am still struggling getting my head around the idea of scope. The use of the @name = name hasn't gelled for me and I think its one of the cornerstone pieces of understanding which will help make my overall understanding of classes come together.
